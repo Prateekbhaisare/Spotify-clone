@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Prateekbhaisare_Spotify_clone_1766742625379-push-trigger-input-set
+  identifier: Build_Prateekbhaisare_Spotify_clone_1766742625379pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Prateekbhaisare_Spotify_clone_1766742625379
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
